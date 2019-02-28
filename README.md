@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hello There
 
-## Available Scripts
+Clone the repo and install dependencies in order to have a go at this unless you rather use the hosted version.
 
-In the project directory, you can run:
+### Features 
 
-### `npm start`
+The searching works fine with capital and non capital searches.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Validation could have been worked better and there is space for improvement, but due to lack of time I have given a short demo of what could be done but yes it does work as can be seen if button is pressed.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The form data does not submit into the array of jobs because it has not been connected, but it does validation and then if valid it would have then triggered the necessary steps. Due to this I created a function which you will find which creates a random set of jobs which I found pretty interesting.
 
-### `npm test`
+Responsiveness was not worked on and the design was not kept too much as the code was online and there would have just been a lot of copy pasting of values, instead I put most my efforts towards the logic of the system.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Hopefully you like what I have come up with from scratch and enjoyed seeing the new hooks coming into play! 
 
-### `npm run build`
+### Things I would have done with more time?
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I would have worked on responsiveness.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Hooked up the submit form with the jobs array.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Redux would have been implemented but due to the scale of the application it was best to leave it nice and simple.
 
-### `npm run eject`
+Pagination would be something really nice to add esspecially when the function created over 15 different random jobs, but I cut it down to 5 - 10 random jobs to keep it clean.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Lastly I would have refactered some code and made sure to have type checked.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Thank You - Andrew 
