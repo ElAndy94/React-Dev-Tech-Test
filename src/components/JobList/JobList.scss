@@ -1,0 +1,19 @@
+.jobs__list {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchBar {
+  padding: 5px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: solid 1px #e9e9e9;
+  width: 63rem;
+  height: 3.125rem;
+  outline: 0;
+}
